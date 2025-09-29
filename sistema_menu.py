@@ -62,8 +62,11 @@ if codigo.startswith("A00"):
     #5.Escaneo de Anomalías
     if opcion == "5":
         frase = input("Ingrese una frase: ")
-        fallas = ["Error", "Corrupto"]
-        if fallas in frase:
+        falla_1 = 'Error'
+        falla_2 = 'Corrupto'
+        if falla_1 in frase:
+            print("Error")
+        elif falla_2 in frase:
             print("Error")
         else:
             print("El código está limpio")
