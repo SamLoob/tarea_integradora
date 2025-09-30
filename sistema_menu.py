@@ -34,7 +34,7 @@ if codigo.startswith("A00"):
             print("Coordenadas óptimas para restauración")
         elif n_x % 2 != 0 and n_y % 2 != 0:
             print("Coordenadas inestables: riesgo de error")
-        elif n_x % 2 == 0 or n_y % 2 != 0 and n_x % 2 != 0 or n_y % 2 != 0:
+        elif n_x % 2 == 0 or n_y % 2 == 0 and n_x % 2 != 0 or n_y % 2 != 0:
             print("Coordenadas en zona gris: precaución")
             
     #3.Cálculo del Índice de Estabilidad del Algoritmo (IEA)
