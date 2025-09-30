@@ -41,7 +41,7 @@ if codigo.startswith("A00"):
     if opcion == "3":
         n_1 = float(input("Ingrese número 1: "))
         n_2 = float(input("Ingrese número 2: "))
-        IEA = [(n_1^2)+(n_2^2)]-[(n_1*n_2)]/(n_1+n_2+1)
+        IEA = [(n_1**2)+(n_2**2)]-[(n_1*n_2)]/(n_1+n_2+1)
         if IEA < 10:
             print("Estabilidad baja: riesgo de colapso inminente")
         elif 10 <= IEA <= 50:
